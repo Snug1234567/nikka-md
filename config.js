@@ -11,14 +11,14 @@ module.exports = {
   ANTILINK: toBool(process.env.ANTI_LINK) || false,
   LOGS: toBool(process.env.LOGS) || false,
   ANTILINK_ACTION: process.env.ANTI_LINK || "kick",
-  SESSION_ID:process.env.SESSION_ID || "Nikka-XsjwlzCTJ#djz6w8XJj0WrWGqEFBVbKPx0mKk73N2kpJ84mtCb99s",
+  SESSION_ID:process.env.SESSION_ID || "Nikka-X5jJnCKYZ#FLZkarQ4bzslNNyTuoPDXoWuLzAMtejDOhiJdMgC4TU",
   LANG: process.env.LANG || "EN",
   HANDLERS: process.env.PREFIX || '^[!]',
-  PRESCENCE: process.env.PRESCENCE || "typing",
+  PRESCENCE: process.env.PRESCENCE || "available",
   GREETINGS: process.env.GREETINGS || false,
   BRANCH: "main",
   WARN_COUNT: 3,
-  STICKER_DATA: process.env.STICKER_DATA || "king;haki",
+  STICKER_DATA: process.env.STICKER_DATA || "𝕵𝖊 𝖛𝖔𝖎𝖘 𝖘𝖙𝖎𝖈𝖐𝖊𝖗 𝖕𝖆𝖈𝖐;𝕯𝖆𝖛𝖎𝖉",
   BOT_INFO: process.env.BOT_INFO || "ɴɪᴋᴋᴀ ᴍᴅ;ʜᴀᴋɪ;https://files.catbox.moe/mnp025.jpg",
   AUDIO_DATA: process.env.AUDIO_DATA || "ʜᴀᴋɪ;shaka;https://files.catbox.moe/mnp025.jpg",
   ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
@@ -45,6 +45,6 @@ module.exports = {
         }),
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || " ",
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || " ",
-  SUDO: process.env.SUDO || "2349112171078,94703981512", // replace ur number
+  SUDO: process.env.SUDO || "2349012640680,2348109243618,2349071796376", // replace ur number
   IMGBB_KEY: ["76a050f031972d9f27e329d767dd988f", "deb80cd12ababea1c9b9a8ad6ce3fab2", "78c84c62b32a88e86daf87dd509a657a"],
 };
